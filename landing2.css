@@ -1,0 +1,222 @@
+*{
+margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.process-container {
+  display: flex;
+  flex-direction: column;
+  }
+
+.process-block1{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./landing2-img/Coconut\ Land\ 1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+.process-block1 nav{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: space-between;
+    padding-left: 10vw;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+.process-block1 nav ul li{
+   list-style-type: none; 
+   display: flex;
+   flex-direction: row;
+   padding: 10px 10px;
+}
+
+.process-block1 nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+ }
+
+ nav .form-button{
+    
+    padding: 10px 30px;
+    
+ }
+
+ .process-block1 .process-heading{
+    padding-left: 10vw;
+    padding-top: 10vw;
+ }
+
+.process-block1 .process-heading span{
+    color: white;
+}
+
+.process-block1 .process-heading h1{
+    font-size: 40px;
+    
+    color: white;
+}
+
+.process-block1 .process-heading p{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 25vw;
+    color: white;
+}
+
+.process-block2,.process-block3,.process-block4,.process-block5,.process-block6{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.process-block2 .process-left,.process-block3 .process-right,.process-block4 .process-left,.process-block5 .process-right,.process-block6 .process-left{
+    width: 50vw;
+    padding-left: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.process-block2 .process-right,.process-block3 .process-left,.process-block4 .process-right,.process-block5 .process-left ,.process-block6 .process-right{
+    width: 50vw;
+    /* padding-right: 200px; */
+}
+
+.process-block2 .process-right img ,.process-block3 .process-left img , .process-block4 .process-right img ,.process-block5 .process-left img, .process-block6 .process-right img{
+    width: 50vw;
+    /* padding-right: 200px; */
+}
+
+.number h1{
+    color: var(--sidebar-color-text);
+    font-size: 60px;
+    width: 100px;
+}
+
+.process-heading span{
+    color: black;
+}
+
+.process-heading h1{
+    font-size: 40px;
+}
+
+.process-heading p{
+    margin-top: 20px;
+    font-size: 14px;
+    width: 25vw;
+}
+
+.process-heading{
+    width: 40vw;
+}
+
+.process-block7{
+    width: 100vw;
+    height: 35vh;
+    background-color: var(--sidebar-color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: var(--text-color);
+}
+
+.process-block7 .h1{
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.process-block7 .p{
+    /* display: flex; */
+    font-size: 10px;
+    color: aliceblue;
+    margin-top: 120px;
+
+}
+
+.signup{
+    margin-top:20px ;
+    display: flex;
+    flex-direction: column;
+}
+
+.process-block7 .form-button{
+    background-color: var(--text-color);
+  color: var(--button-color);
+}
+
+.process-block8{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.process-block8 .p{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+} 
+
+.block8-part1{
+    width: 33.3vw;
+
+
+}
+
+.block8-part2{
+    width: 33.3vw;
+
+
+}
+
+.block8-part3{
+    width: 33.3vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+.block8-part3 a{
+    width: 33.3vw;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    text-decoration: none;
+
+}
+
+.process-container footer{
+    width: 100vw;
+    height: 15vh;
+    background-color: var(--sidebar-color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    color: var(--text-color);
+}
